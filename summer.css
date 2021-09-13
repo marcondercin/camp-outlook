@@ -1,86 +1,9 @@
-@font-face {
-  font-family: 'Avenir';
-  src: url('../fonts/Avenir.eot?#iefix') format('embedded-opentype'),  url('../fonts/Avenir.woff') format('woff'), url('../fonts/Avenir.ttf')  format('truetype'), url('../fonts/Avenir.svg#Avenir') format('svg');
-}
-
-* {
-	box-sizing: border-box;
-	font-family: 'Avenir', sans-serif;
-}
-
-body {
-	margin: 0px;
-  background-color: #FAFAFA;
-}
-
-.hidden {display: none;}
-.summer {opacity: 0.5;}
-
-h1 {font-size: 3em;}
-h2 {font-size: 2.4em;}
-h3 {font-size: 2em;}
-h4 {font-size: 1.8em;}
-h5 {font-size: 1.5em;}
-
-header {
-	position: fixed;
-  display: flex;
-	top: 0;
-	width: 100%;
-	height: 65px;
-	background-color: white;
-	border-bottom: solid 5px #8E8E8F;
-  z-index: 5;
-  align-content: center;
-}
-
-.logo {
-	margin-left: 20px;
-	margin-top: 5px;
-	height: 50px;
-	border-radius: 10px;
-}
-
-nav.main-navigation {
-	margin-top: 20px;
-	margin-left: 20px;
-	color: #7B5549;
-}
-
-.main-navigation a {
-	padding: 0px 15px;
-	color: #7B5549;
-	text-decoration: none;
-	transition-duration: 0.5s;
-}
-
-.main-navigation a:hover {
-	color: black;
-}
-
-.donate-button {
-	/* display: inline-block; */
-	padding: 7px 45px;
-	border: solid 3px darkred;
-	border-radius: 10px;
-  margin: 9px 25px 9px auto;
-	color: black;
-	background-color: rgba(128, 0, 0, 0.1); /* maroon */
-	text-decoration: none;
-	transition-duration: 0.4s;
-
-}
-
-.donate-button:hover {
-	color: white;
-	background-color: rgba(128, 0, 0, 0.6);
-}
-
 .topic-container {
   margin-top: 65px;
   display: flex;
   height: 750px;
 }
+
 .main-image {
   width: 63%;
   background-image: url("images/IMG_9591.jpg");
@@ -97,14 +20,14 @@ nav.main-navigation {
   /* align-content: center; */
 }
 
-.heading-text h2 {
+.heading-text h1 {
   text-align: center;
   font-family: "Amatic SC";
   font-style: bold;
   font-size: 4em;
 }
 
-.heading-text h5 {
+.heading-text h3 {
   text-align: center;
   padding: 0px 50px;
   font-size: 1.2em;
