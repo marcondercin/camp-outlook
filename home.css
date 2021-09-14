@@ -104,10 +104,21 @@
 }
 
 .box {
-  min-width: 25%;
+  width: 25%;
   min-height: 375px;
-  /* border: solid 2px white; */
-  /* padding-bottom: 25%; */
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+.box-content > h3 {
+  font-size: 1.5em;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.box-content > p {
+  margin-top: auto;
 }
 
 .a {
@@ -128,14 +139,14 @@
 
 @media screen and (max-width: 992px) {
   .box {
-    min-width: 50%;
+    width: 50%;
     min-height: 300px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .box {
-    min-width: 100%;
+    width: 100%;
     min-height: 150px;
   }
 }
