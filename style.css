@@ -29,14 +29,14 @@ header {
   display: flex;
 	top: 0;
 	width: 100%;
-	height: 65px;
+	min-height: 65px;
 	background-color: white;
 	border-bottom: solid 5px #8E8E8F;
   z-index: 5;
   align-content: center;
 }
 
-.logo {
+#logo {
 	margin-left: 20px;
 	margin-top: 5px;
 	height: 50px;
@@ -75,6 +75,38 @@ nav.main-navigation {
 .donate-button:hover {
 	color: white;
 	background-color: rgba(128, 0, 0, 0.6);
+}
+
+@media screen and (max-width: 840px) {
+  header {
+    display: block;
+    position: relative;
+  }
+
+  #logo {
+    display: block;
+    margin: 5px auto;
+  }
+
+  .main-navigation {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+
+  .donate-button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  .main-navigation {
+    display: block;
+    background-color: white;
+    margin: 0;
+    padding: 10px 0;
+  }
 }
 
 footer {
