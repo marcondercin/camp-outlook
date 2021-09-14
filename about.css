@@ -5,14 +5,14 @@
   height: 750px;
 }
 .main-image {
-  width: 63%;
+  min-width: 63%;
   background-image: url("images/IMG_9612.jpg");
   background-size: cover;
   background-position: right;
 }
 
 .heading-text {
-  width: 37%;
+  min-width: 37%;
   background-color: #7B5549;
   color: white;
 }
@@ -35,9 +35,11 @@
 }
 
 .text-container {
+  max-width: 1000px;
   text-align: center;
   color: #3E2A24;
-  padding: 0 25%;
+  margin: 0 auto;
+  padding: 0 30px;
   line-height: 1.5;
 }
 
@@ -53,3 +55,29 @@
   margin: -10px auto 30px auto;
 }
 
+@media screen and (max-width: 1024px) {
+  .main-image {
+    min-width: 50%;
+  }
+  .heading-text {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .topic-container {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .topic-container {
+    height: auto;
+  }
+  .main-image {
+    display: none;
+  }
+  .heading-text {
+    width: 100%;
+  }
+}
