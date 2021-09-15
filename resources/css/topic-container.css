@@ -1,0 +1,93 @@
+.topic-container {
+  margin-top: 65px;
+  /* position: absolute; */
+  display: flex;
+  height: 750px;
+}
+.main-image {
+  min-width: 63%;
+  background-size: cover;
+  background-position: right;
+}
+
+.heading-text {
+  min-width: 37%;
+  background-color: #7B5549;
+  color: white;
+}
+
+.heading-text h1 {
+  text-align: center;
+  font-family: "Amatic SC";
+  font-style: bold;
+  font-size: 4em;
+}
+
+.heading-text h3 {
+  text-align: center;
+  padding: 0px 50px;
+  font-size: 1.2em;
+}
+
+.heading-text p {
+  text-align: center;
+  margin: 0px 15%;
+  line-height: 1.5;
+  margin-bottom: 5%;
+}
+
+.heading-text li {
+  margin: 0px 50px;
+}
+
+.heading-text a {
+  align-self: center;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: rgba(114, 47, 55, 0.7); /* #722F37 */
+  width: 200px;
+  border: solid 2px black;
+  margin-top: 25px;
+  padding: 10px 0px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px black; /* x, y, blur, colour */
+  transition-duration: 0.3s;
+}
+
+.heading-text a:hover {
+  background-color: rgba(114, 47, 55, 1);
+}
+
+#topic-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .main-image {
+    min-width: 50%;
+  }
+  .heading-text {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .topic-container {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .topic-container {
+    height: auto;
+  }
+  .main-image {
+    display: none;
+  }
+  .heading-text {
+    width: 100%;
+  }
+}

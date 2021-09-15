@@ -1,7 +1,7 @@
 .main-image-container {
 	height: 1000px;
 	width: auto;
-	background-image: url("images/home/DSC_0039.jpg");
+	background-image: url("../images/home/DSC_0039.jpg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -77,7 +77,7 @@
   align-content: center;
 	height: 1000px;
 	width: auto;
-	background-image: url("images/home/IMG_9324.jpg");
+	background-image: url("../images/home/IMG_9324.jpg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;

@@ -1,37 +1,5 @@
-.topic-container {
-  margin-top: 65px;
-  /* position: absolute; */
-  display: flex;
-  height: 750px;
-}
 .main-image {
-  min-width: 63%;
-  background-image: url("images/IMG_9612.jpg");
-  background-size: cover;
-  background-position: right;
-}
-
-.heading-text {
-  min-width: 37%;
-  background-color: #7B5549;
-  color: white;
-}
-
-.heading-text h2 {
-  text-align: center;
-  font-family: "Amatic SC";
-  font-style: bold;
-  font-size: 4em;
-}
-
-.heading-text h3 {
-  text-align: center;
-  padding: 0px 50px;
-  font-size: 1.2em;
-}
-
-.heading-text li {
-  margin: 0px 50px;
+  background-image: url("../images/IMG_9612.jpg");
 }
 
 .text-container {
@@ -53,31 +21,4 @@
   width: 15px;
   border-top: solid 4px black;
   margin: -10px auto 30px auto;
-}
-
-@media screen and (max-width: 1024px) {
-  .main-image {
-    min-width: 50%;
-  }
-  .heading-text {
-    width: 50%;
-  }
-}
-
-@media screen and (max-width: 840px) {
-  .topic-container {
-    margin-top: 0;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .topic-container {
-    height: auto;
-  }
-  .main-image {
-    display: none;
-  }
-  .heading-text {
-    width: 100%;
-  }
 }
