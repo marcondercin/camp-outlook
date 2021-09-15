@@ -2,6 +2,10 @@
   background-image: url("../images/IMG_9612.jpg");
 }
 
+.heading-text {
+  background-color: #7B5549;
+}
+
 .text-container {
   max-width: 1000px;
   text-align: center;
