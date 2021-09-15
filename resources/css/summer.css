@@ -9,40 +9,44 @@
 
 .image-strip-container {
   display: flex;
-  justify-content: space-between;
-  height: 100%;
-  width: 100%;
+  justify-content: center;
   padding: 0;
   margin: 4em 0 0 0;
 }
 
 .circled-image {
-  flex: 1 0 auto;
-  width: 15%;
+  min-height: 200px;
+  min-width: 200px;
+  margin-left: 10px;
   border: solid 2px black;
   align-self: center;
-  padding-bottom: 15%;
-  margin-left: 10em;
-  /* margin-bottom: 50px; */
   border-radius: 50%;
 }
 
 .text-in-strip {
-  /* margin-left: 33%; */
-  /* margin-right: 5em; */
+  max-width: 800px;
   text-align: center;
-  padding-left: 5em;
-  padding-right: 10em;
+  padding: 0 15px;
 }
 
 .dash {
   width: 15px;
   border-top: solid 4px black;
-  margin: -10px auto 30px auto;
+  margin: 0 auto 30px auto;
 }
 
 .strip-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 1000px;
+  margin: 10px auto;
+  text-align: center;
+  padding: 0 15px;
+}
+
+@media screen and (max-width: 800px) {
+  .image-strip-container {
+    flex-direction: column;
+  }
 }
