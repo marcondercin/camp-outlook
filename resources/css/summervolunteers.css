@@ -1,0 +1,49 @@
+.heading-container {
+  margin-top: 65px;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.heading-container > h1 {
+  font-family:  "Amatic SC";
+  font-size: 4em;
+  padding-top: 20px;
+}
+
+.text-container {
+  padding: 0 15px;
+  max-width: 1000px;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+.dash {
+  width: 15px;
+  border-top: solid 4px black;
+  margin: 30px auto;
+}
+
+.text-container > ul {
+  text-align: left;
+}
+
+.apply-button {
+  display: block;
+  width: 200px;
+  margin: 30px auto;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: rgba(114, 47, 55, 0.7); /* #722F37 */
+  border: solid 2px black;
+  padding: 10px 30px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px black; /* x, y, blur, colour */
+  transition-duration: 0.3s;
+}
+
+.apply-button:hover {
+  background-color: rgba(114, 47, 55, 1);
+}
+
