@@ -122,10 +122,12 @@
   font-size: 1.5em;
   font-weight: 800;
   letter-spacing: 2px;
+  padding: 0 3px;
 }
 
 .box-content > p {
   margin-top: auto;
+  padding: 0 5px;
 }
 
 .a {

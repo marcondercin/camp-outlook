@@ -19,6 +19,7 @@
   font-family: "Amatic SC";
   font-style: bold;
   font-size: 4em;
+  padding: 0 5px;
 }
 
 .heading-text h3 {
@@ -32,6 +33,7 @@
   margin: 0px 15%;
   line-height: 1.5;
   margin-bottom: 5%;
+  letter-spacing: 0.5px;
 }
 
 .heading-text li {
