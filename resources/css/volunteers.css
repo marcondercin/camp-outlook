@@ -82,5 +82,27 @@
 }
 
 #alana {
+  background-image: url("../images/bios/alana.jpg");
+  background-size: 120%;
+}
 
+#laura {
+  background-image: url("../images/bios/LauraS.png");
+  background-size: 120%;
+}
+
+#greg {
+  background-image: url("../images/bios/greg.jpg");
+  background-size: 160%;
+}
+
+#steph {
+  background-image: url("../images/bios/Steph.jpeg");
+  background-size: 160%;
+  background-position-x: -100px; 
+}
+
+#vlad {
+  background-image: url("../images/bios/Vlad.JPG");
+  background-size: 160%;
 }
