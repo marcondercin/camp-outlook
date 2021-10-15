@@ -30,6 +30,8 @@
   margin: 10px;
   border: solid 2px black;
   border-radius: 50%;
+  background-position: center;
+  background-size: 100%;
 }
 
 .text-in-strip {
@@ -62,4 +64,23 @@
   .text-container p {
     padding: 0 20px;
   }
+}
+
+#john {
+  background-image: url("../images/bios/john.jpg");
+}
+
+#abby {
+  background-image: url("../images/bios/Abigail.jpeg");
+}
+
+#joanna {
+  background-image: url("../images/bios/joanna.jpg");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 150%;
+}
+
+#alana {
+
 }
