@@ -17,6 +17,10 @@ h2 {
 
 p {
   text-align: center;
+  padding: 0 10px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .season-container {
@@ -25,6 +29,7 @@ p {
   justify-content: space-around;
   max-width: 1200px;
   margin: 0 auto;
+  flex-wrap: wrap;
 }
 
 .dash {
@@ -33,4 +38,6 @@ p {
   margin: -10px auto 30px auto;
 }
 
-
+.summer {
+  min-width: 300px;
+}
